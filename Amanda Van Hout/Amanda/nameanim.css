@@ -1,0 +1,16 @@
+
+
+#nameanim
+{   
+    display: inline-block;
+    position: absolute;
+    width:900px;
+    height:190px;
+   
+    padding:10px;
+ 
+    z-index:200;
+    margin: 5% auto;
+    margin-top: -1vw;
+    left: 0;
+    right: 0;}

@@ -1,0 +1,242 @@
+<!-------
+	
+	Hello! I'm so glad you visited my page. 
+	If you're here, you're probably wondering how I made my page. 
+	I guess I'll let you in on a little secret.
+	
+	It's all me, baby.
+	
+	You heard that right. No wordpress, no templates. 
+	This little page comes straight from my brain, and straight
+	from my heart.
+	
+	Take a look at all the cool stuff I did. I tried to make
+	comments for everything so you can navigate how I did things.
+
+	I guess you can use my material... just think of me while you 
+	copy and paste my beautiful code, hmm? Hehehehe :3
+
+	Love,
+	Amanda
+
+	------->
+	
+	
+	<title>Amanda Van Hout</title>
+<head> 
+	<link href="MobileNav.css" rel="stylesheet" type="text/css">
+<!------- Stylesheet for Header/Navbar------->
+<link rel="stylesheet" href="nameanim.css">
+
+<!------- Stylesheet for container 1 ------->
+<link rel="stylesheet" href="container1.css">
+
+<!-------Stylesheet for fade in page effect-->
+<link href="fadein.css" rel="stylesheet" type="text/css">
+
+<!---------Load animations with lottie ------->
+<script src = "lottie.js"></script>
+
+
+<!------------------------------FONTS--------------------------------->
+<!---------------- Fredericka font------------------>
+<link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+<!-------------- Tangerine font----------------------->
+<link href="https://fonts.googleapis.com/css?family=Tangerine:300,400" rel="stylesheet">
+<!-------------------------------END FONTS------------------------------>
+
+<!------------------Other styles CDN---------->
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!------ Latest compiled JavaScript --------->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<!------------ Fade in page-------------->
+<script src="fadein.js"></script>
+<svg id="fader"></svg>
+<script>fadeInPage()</script>
+<!-----------------End fade in page------------->
+
+<!---------------------------------------------------------------->
+
+<!------------------------ NAVBAR ------------------------------->
+	<header>
+<div id = container>
+
+	<div id="nameanim">  </div>
+	<script src="nameanim.js"></script>
+
+
+	
+	
+	</header>
+
+<!--------------------END NAVBAR ------------------------------->
+<!---------------------------------------------------------------->
+
+<body>
+
+<!-------------- Container 1, including main image-------------->
+	<div id="container1">
+
+	<!-- Coding text to left of image animation-->
+	<div id="codingtextanim"></div>
+	<script src="codingtextanim.js"></script>
+
+	<!-- Put picture here, maybe animation-->
+<div class ="mainimage"></div>
+
+
+<!--Design text to right of image-->
+<div id="designtextanim"></div>
+<script src="designtextanim.js"></script>
+
+</div>
+<!-------------------END CONTAINER 1----------------------------->
+
+<!---------------------------------------------------------------->
+
+<!------------- Start container 2, under container 1, includes "about me"-->
+<div id="container2">
+	<link rel="stylesheet" href="container2.css">
+	<div id="aboutmetext"> </div>
+	<script src="aboutmetext.js"></script>
+
+
+
+	
+</div>
+
+<!-------------------END CONTAINER 2----------------------------->
+
+<!---------------------------------------------------------------->
+
+<!----------------- Container 3, for boxes------------------->
+
+<div class="container3" id="container3">
+
+	<div id="block-main" class="block-main">
+		<section class="block about">
+			<div class="block-box">
+				<h2 class="block-icon"><i class="fa fa-eye fa-2x"></i><br />Education</h2>
+			</div>
+			<div class="block-content">
+				<h2>Education</h2>
+				<p>And More stuff.</p>
+
+			</div>
+			<span class="block-icon-close"><i class="fa fa-close"></i></span>
+		</section>
+		<section class="block works">
+			<div class="block-box">
+				<h2 class="block-icon"><i class="fa fa-suitcase fa-2x"></i><br />Skills</h2>
+			</div>
+			<div class="block-content">
+				<h2>Skills</h2>
+				<p>Stufffffffff</p>
+
+			</div>
+			<span class="block-icon-close"><i class="fa fa-close"></i></span>
+		</section>
+		<section class="block blog">
+			<div class="block-box">
+				<h2 class="block-icon"><i class="fa fa-edit fa-2x"></i><br />Projects</h2>
+			</div>
+			<div class="block-content">
+				<h2>Projects</h2>
+				<p>And more stuff.</p>
+
+			</div>
+			<span class="block-icon-close"><i class="fa fa-close"></i></span>
+		</section>
+		<section class="block contact">
+			<div class="block-box">
+				<h2 class="block-icon"><i class="fa fa-envelope-o fa-2x"></i><br />Interests</h2>
+			</div>
+			<div class="block-content">
+				<h2>Interests</h2>
+				<p>And more stuff.</p>
+				<span class="block-icon-close"><i class="fa fa-close"></i></span>
+		</section>
+	</div>
+	<!------------------------- END CONTAINER3 ----------------------------->
+	
+	
+	<div id="aboutThis">
+		<!-- START aboutThis -->
+		<h6>aboutThis</h6>
+		<h3>stuff will go here</h3>
+
+	</div>
+	<!-- END aboutThis -->
+
+<!---------------------------Start contact------------------------------------->
+
+	<div id="contact">
+
+		<h6>CONTACT</h6>
+		<div id="text">
+			<h3><i class="fa fa-map-marker" aria-hidden="true"></i> Amanda</h3>
+			<h4><i class="fa fa-envelope" aria-hidden="true"></i> amanda_vanhout@daytonastate.edu</h4>
+		</div>
+		<div id="button">
+			<form method="post" action="mailto:amanda_vanhout@daytonastate.edu"> <input type="submit"
+					value="Contact me"> <br /> </form>
+
+
+		</div>
+
+	</div>
+	<!-----------------------------END CONTACT----------------------------------->
+	<!---------------------------------------------------------------->
+	<footer>
+		<h5>Designed By Me, Myself, and I 2020</h5>>
+	</footer>
+</body>
+
+
+
+
+<!---------------------JS FOR BOXES----------------->
+
+<script>
+
+
+	(function () {
+
+		'use strict';
+	
+		var blockMain = document.getElementById('block-main');
+		var blocks = blockMain.getElementsByClassName('block');
+	
+		Array.prototype.forEach.call(blocks, function (block) {
+			block.dataset.open = false;
+			block.addEventListener('click', function (e) {
+				var closeButton = block.getElementsByClassName('block-icon-close')[0];
+	
+				if (block.dataset.open === 'false') {
+					block.dataset.open = 'true';
+					block.classList.add('block-expanded-item');
+					blockMain.classList.add('block-expanded');
+				}
+	
+				closeButton.addEventListener('click', function (e) {
+					e.stopPropagation();
+					block.dataset.open = 'false';
+					block.classList.remove('block-expanded-item');
+					blockMain.classList.remove('block-expanded');
+				});
+			});
+		});
+	})();
+
+</script>
+	
